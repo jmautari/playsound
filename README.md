@@ -14,6 +14,8 @@ Where `options` can be:
 
 `-r` repeat the sound until `playsound` is called again with `-s` option
 
+`-m` same as `-r` but also mute default microphone until `playsound` is called again with `-s` option
+
 `-s` stop a sound that was previously played with `-r` option
 
 `-t X` play the sound for up to `X` seconds. This option has no effect if the sound file duration is shorter than `X` seconds
